@@ -1,0 +1,35 @@
+.logo-a{
+	position: absolute;
+	width: 120px;
+	height: 48px;
+	left: 40px;
+	top: 40px;		
+}
+
+.mgs-encrip-desen{
+	position: absolute;
+	width: 400px;
+	height: 944px;
+	left: 1000px;
+	top: 40px;
+
+	/* White */
+
+	background: #FFFFFF;
+	/* shadow */
+
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+}
+
+.mgs-encrip-desen img{
+	position: relative;
+	width: 336px;
+	height: 304px;
+	left: 1032px;
+	top: 283px;
+}
+
+.mgs-encrip-desen h2{
+
+}
