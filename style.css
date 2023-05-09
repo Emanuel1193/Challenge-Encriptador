@@ -1,3 +1,12 @@
+body{
+	background: #E5E5E5;
+}
+header{
+	display: inline-block;
+}
+main{
+	display: inline-block;
+}
 .logo-a{
 	position: absolute;
 	width: 120px;
@@ -9,21 +18,16 @@
 .mgs-encrip-desen{
 	position: absolute;
 	width: 400px;
-	height: 944px;
-	left: 1000px;
+	height: 90%;
+	left: 70%;
 	top: 40px;
-
-	/* White */
-
 	background: #FFFFFF;
-	/* shadow */
-
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 	border-radius: 32px;
 }
 
 .mgs-encrip-desen img{
-	position: relative;
+	/*position: relative;*/
 	width: 336px;
 	height: 304px;
 	left: 1032px;
@@ -31,5 +35,84 @@
 }
 
 .mgs-encrip-desen h2{
+	width: 336px;
+	height: 58px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	color: #343A40;
+}
 
+.mgs-encrip-desen p{
+	width: 336px;
+	height: 48px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #495057;
+}
+
+.texto{
+	position: absolute;
+	left: 240px;
+	width: 577px;
+	height: 48px;
+	left: 240px;
+	top: 168px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+.button{
+	position: absolute;
+	left: 240px;
+	top: 82%;
+}
+
+.button label{
+	display: block;
+	width: 205px;
+	height: 18px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+}
+
+.boton-encriptador{
+	display: inline-block;
+	padding: 24px;
+	width: 328px;
+	height: 67px;
+	background: #0A3871;
+	border-radius: 24px;	
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.boton-desencriptar{
+	display: inline-block;
+	padding: 24px;
+	width: 328px;
+	height: 67px;
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #0A3871;
 }
