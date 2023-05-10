@@ -27,11 +27,11 @@ main{
 }
 
 .mgs-encrip-desen img{
-	/*position: relative;*/
+	position: relative;
 	width: 336px;
 	height: 304px;
-	left: 1032px;
-	top: 283px;
+	left: 33px;
+	top: 185px;
 }
 
 .mgs-encrip-desen h2{
@@ -40,10 +40,14 @@ main{
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 25px;
 	line-height: 120%;
 	text-align: center;
 	color: #343A40;
+	position: relative;
+    top: 190px;
+    left: 45px;
+    color: #343A40;
 }
 
 .mgs-encrip-desen p{
@@ -52,10 +56,14 @@ main{
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 150%;
 	text-align: center;
 	color: #495057;
+	position: relative;
+    top: 225px;
+    left: 47px;
+    color: #495057;
 }
 
 .texto{
@@ -73,14 +81,26 @@ main{
 	color: #0A3871;
 }
 
+.texto::placeholder{
+	font-family: 'Inter';
+	font-style: normal;
+	color: #0A3871;
+	border: none;
+	background: #E5E5E5;
+}
+
 .button{
 	position: absolute;
 	left: 240px;
 	top: 82%;
 }
+.button img{
+	width: 16px;
+	right: 16px;
+}
 
 .button label{
-	display: block;
+	display: inline-block;
 	width: 205px;
 	height: 18px;
 	font-weight: 400;
@@ -88,6 +108,7 @@ main{
 	line-height: 150%;
 	color: #495057;
 	opacity: 0.8;
+	padding: 5px;
 }
 
 .boton-encriptador{
@@ -101,6 +122,8 @@ main{
 	line-height: 19px;
 	text-align: center;
 	color: #FFFFFF;
+	font-family: 'Inter';
+	font-style: normal;
 }
 
 .boton-desencriptar{
@@ -115,4 +138,6 @@ main{
 	line-height: 19px;
 	text-align: center;
 	color: #0A3871;
+	font-family: 'Inter';
+	font-style: normal;
 }
