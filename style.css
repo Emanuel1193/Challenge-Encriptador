@@ -71,23 +71,25 @@ main{
 	left: 240px;
 	width: 577px;
 	height: 48px;
-	left: 240px;
 	top: 168px;
 	font-family: 'Inter';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 150%;
 	color: #0A3871;
-}
-
-.texto::placeholder{
-	font-family: 'Inter';
-	font-style: normal;
-	color: #0A3871;
 	border: none;
 	background: #E5E5E5;
 }
+
+::placeholder{
+	font-family: 'Inter';
+	color: #0A3871;
+	border: none;
+	background: #E5E5E5; }	
+	.texto:focus{
+		outline: none;
+	}
+
 
 .button{
 	position: absolute;
